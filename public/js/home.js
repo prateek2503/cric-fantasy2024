@@ -1,21 +1,21 @@
 (function () {
-    var matchSelections =
-    [
-      {
-        "id": 1,
-        "home": "MI",
-        "away": "PK",
-        "date": "9th April 7:30 PM",
-        "selection": "home",
-        "bid": 25
-      },
-      {
-        "id": 2,
-        "home": "RCB",
-        "away": "SRH",
-        "date": "10th April 7:30 PM"
-      }
-    ]
+    const matchSelections =
+        [
+            {
+                "id": 1,
+                "home": "MI",
+                "away": "PK",
+                "date": "9th April 7:30 PM",
+                "selection": "home",
+                "bid": 25
+            },
+            {
+                "id": 2,
+                "home": "RCB",
+                "away": "SRH",
+                "date": "10th April 7:30 PM"
+            }
+        ];
 
     matchSelections.forEach(function(match) {
 
