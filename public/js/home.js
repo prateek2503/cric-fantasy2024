@@ -5,19 +5,21 @@
                 "id": 1,
                 "home": "MI",
                 "away": "PK",
-                "date": "9th April 7:30 PM",
+                "date": "2021-04-08T19:30:00.000",
                 "selection": "home",
-                "bid": 25
+                "bid": 100
             },
             {
                 "id": 2,
                 "home": "RCB",
                 "away": "SRH",
-                "date": "10th April 7:30 PM"
+                "date": "2021-04-10T19:30:00.000"
             }
         ];
 
     matchSelections.forEach(function(match) {
+
+        var startTime = Date.parse(match.date);
 
         var html = `
     <div class="row border rounded pb-4">
@@ -26,11 +28,11 @@
                 Match ${match.id} ${match.home} vs ${match.away}
             </div>
             <div class="col-4 text-end">
-                ${match.date}
+                ${moment(startTime).format("Do MMM, h:mm A")}
             </div>
         </div>
         <div class="row">
-            <div class="d-grid gap-2 col-6">
+            <div class="d-grid gap-2 col-6" id="teams-${match.id}">
                 <input type="radio" class="btn-check" name="team-selection-${match.id}" id="home-${match.id}"
                        value="home" autocomplete="off">
                 <label class="btn btn-outline-success" for="home-${match.id}">${match.home}</label>
@@ -58,6 +60,12 @@
         `
 
         $("#matches").append(html);
+
+        if (startTime < Date.now()) {
+            $("#teams-" + match.id + " :input").prop('disabled', true);
+            $("#bid-select-" + match.id).prop('disabled', true);
+            $("#submit-" + match.id).prop('disabled', true);
+        }
 
         if (match.bid) {
             $("#bid-select-" + match.id).val(match.bid);
