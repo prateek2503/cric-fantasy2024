@@ -1,0 +1,542 @@
+[
+  {
+    "id": "1",
+    "Date": "09/04/2021 19:30",
+    "Location": "M. A. Chidambaram Stadium, Chennai",
+    "Home Team": "Mumbai Indians",
+    "Away Team": "Royal Challengers Bangalore",
+    "Group": "",
+    "Result": ""
+  },
+  {
+    "id": "2",
+    "Date": "10/04/2021 19:30",
+    "Location": "Wankhede Stadium, Mumbai",
+    "Home Team": "Chennai Super Kings",
+    "Away Team": "Delhi Capitals",
+    "Group": "",
+    "Result": ""
+  },
+  {
+    "id": "3",
+    "Date": "11/04/2021 19:30",
+    "Location": "M. A. Chidambaram Stadium, Chennai",
+    "Home Team": "Sunrisers Hyderabad",
+    "Away Team": "Kolkata Knight Riders",
+    "Group": "",
+    "Result": ""
+  },
+  {
+    "id": "4",
+    "Date": "12/04/2021 19:30",
+    "Location": "Wankhede Stadium, Mumbai",
+    "Home Team": "Rajasthan Royals",
+    "Away Team": "Punjab Kings",
+    "Group": "",
+    "Result": ""
+  },
+  {
+    "id": "5",
+    "Date": "13/04/2021 19:30",
+    "Location": "M. A. Chidambaram Stadium, Chennai",
+    "Home Team": "Kolkata Knight Riders",
+    "Away Team": "Mumbai Indians",
+    "Group": "",
+    "Result": ""
+  },
+  {
+    "id": "6",
+    "Date": "14/04/2021 19:30",
+    "Location": "M. A. Chidambaram Stadium, Chennai",
+    "Home Team": "Sunrisers Hyderabad",
+    "Away Team": "Royal Challengers Bangalore",
+    "Group": "",
+    "Result": ""
+  },
+  {
+    "id": "7",
+    "Date": "15/04/2021 19:30",
+    "Location": "Wankhede Stadium, Mumbai",
+    "Home Team": "Rajasthan Royals",
+    "Away Team": "Delhi Capitals",
+    "Group": "",
+    "Result": ""
+  },
+  {
+    "id": "8",
+    "Date": "16/04/2021 19:30",
+    "Location": "Wankhede Stadium, Mumbai",
+    "Home Team": "Punjab Kings",
+    "Away Team": "Chennai Super Kings",
+    "Group": "",
+    "Result": ""
+  },
+  {
+    "id": "9",
+    "Date": "17/04/2021 19:30",
+    "Location": "M. A. Chidambaram Stadium, Chennai",
+    "Home Team": "Mumbai Indians",
+    "Away Team": "Sunrisers Hyderabad",
+    "Group": "",
+    "Result": ""
+  },
+  {
+    "id": "10",
+    "Date": "18/04/2021 15:30",
+    "Location": "M. A. Chidambaram Stadium, Chennai",
+    "Home Team": "Royal Challengers Bangalore",
+    "Away Team": "Kolkata Knight Riders",
+    "Group": "",
+    "Result": ""
+  },
+  {
+    "id": "11",
+    "Date": "18/04/2021 19:30",
+    "Location": "Wankhede Stadium, Mumbai",
+    "Home Team": "Delhi Capitals",
+    "Away Team": "Punjab Kings",
+    "Group": "",
+    "Result": ""
+  },
+  {
+    "id": "12",
+    "Date": "19/04/2021 19:30",
+    "Location": "Wankhede Stadium, Mumbai",
+    "Home Team": "Chennai Super Kings",
+    "Away Team": "Rajasthan Royals",
+    "Group": "",
+    "Result": ""
+  },
+  {
+    "id": "13",
+    "Date": "20/04/2021 19:30",
+    "Location": "M. A. Chidambaram Stadium, Chennai",
+    "Home Team": "Delhi Capitals",
+    "Away Team": "Mumbai Indians",
+    "Group": "",
+    "Result": ""
+  },
+  {
+    "id": "14",
+    "Date": "21/04/2021 15:30",
+    "Location": "M. A. Chidambaram Stadium, Chennai",
+    "Home Team": "Punjab Kings",
+    "Away Team": "Sunrisers Hyderabad",
+    "Group": "",
+    "Result": ""
+  },
+  {
+    "id": "15",
+    "Date": "21/04/2021 19:30",
+    "Location": "Wankhede Stadium, Mumbai",
+    "Home Team": "Kolkata Knight Riders",
+    "Away Team": "Chennai Super Kings",
+    "Group": "",
+    "Result": ""
+  },
+  {
+    "id": "16",
+    "Date": "22/04/2021 19:30",
+    "Location": "Wankhede Stadium, Mumbai",
+    "Home Team": "Royal Challengers Bangalore",
+    "Away Team": "Rajasthan Royals",
+    "Group": "",
+    "Result": ""
+  },
+  {
+    "id": "17",
+    "Date": "23/04/2021 19:30",
+    "Location": "M. A. Chidambaram Stadium, Chennai",
+    "Home Team": "Punjab Kings",
+    "Away Team": "Mumbai Indians",
+    "Group": "",
+    "Result": ""
+  },
+  {
+    "id": "18",
+    "Date": "24/04/2021 19:30",
+    "Location": "Wankhede Stadium, Mumbai",
+    "Home Team": "Rajasthan Royals",
+    "Away Team": "Kolkata Knight Riders",
+    "Group": "",
+    "Result": ""
+  },
+  {
+    "id": "19",
+    "Date": "25/04/2021 15:30",
+    "Location": "Wankhede Stadium, Mumbai",
+    "Home Team": "Chennai Super Kings",
+    "Away Team": "Royal Challengers Bangalore",
+    "Group": "",
+    "Result": ""
+  },
+  {
+    "id": "20",
+    "Date": "25/04/2021 19:30",
+    "Location": "M. A. Chidambaram Stadium, Chennai",
+    "Home Team": "Sunrisers Hyderabad",
+    "Away Team": "Delhi Capitals",
+    "Group": "",
+    "Result": ""
+  },
+  {
+    "id": "21",
+    "Date": "26/04/2021 19:30",
+    "Location": "Narendra Modi Stadium, Ahmedabad",
+    "Home Team": "Punjab Kings",
+    "Away Team": "Kolkata Knight Riders",
+    "Group": "",
+    "Result": ""
+  },
+  {
+    "id": "22",
+    "Date": "27/04/2021 19:30",
+    "Location": "Narendra Modi Stadium, Ahmedabad",
+    "Home Team": "Delhi Capitals",
+    "Away Team": "Royal Challengers Bangalore",
+    "Group": "",
+    "Result": ""
+  },
+  {
+    "id": "23",
+    "Date": "28/04/2021 19:30",
+    "Location": "Arun Jaitley Stadium, Delhi",
+    "Home Team": "Chennai Super Kings",
+    "Away Team": "Sunrisers Hyderabad",
+    "Group": "",
+    "Result": ""
+  },
+  {
+    "id": "24",
+    "Date": "29/04/2021 15:30",
+    "Location": "Arun Jaitley Stadium, Delhi",
+    "Home Team": "Mumbai Indians",
+    "Away Team": "Rajasthan Royals",
+    "Group": "",
+    "Result": ""
+  },
+  {
+    "id": "25",
+    "Date": "29/04/2021 19:30",
+    "Location": "Narendra Modi Stadium, Ahmedabad",
+    "Home Team": "Delhi Capitals",
+    "Away Team": "Kolkata Knight Riders",
+    "Group": "",
+    "Result": ""
+  },
+  {
+    "id": "26",
+    "Date": "30/04/2021 19:30",
+    "Location": "Narendra Modi Stadium, Ahmedabad",
+    "Home Team": "Punjab Kings",
+    "Away Team": "Royal Challengers Bangalore",
+    "Group": "",
+    "Result": ""
+  },
+  {
+    "id": "27",
+    "Date": "01/05/2021 19:30",
+    "Location": "Arun Jaitley Stadium, Delhi",
+    "Home Team": "Mumbai Indians",
+    "Away Team": "Chennai Super Kings",
+    "Group": "",
+    "Result": ""
+  },
+  {
+    "id": "28",
+    "Date": "02/05/2021 15:30",
+    "Location": "Arun Jaitley Stadium, Delhi",
+    "Home Team": "Rajasthan Royals",
+    "Away Team": "Sunrisers Hyderabad",
+    "Group": "",
+    "Result": ""
+  },
+  {
+    "id": "29",
+    "Date": "02/05/2021 19:30",
+    "Location": "Narendra Modi Stadium, Ahmedabad",
+    "Home Team": "Punjab Kings",
+    "Away Team": "Delhi Capitals",
+    "Group": "",
+    "Result": ""
+  },
+  {
+    "id": "30",
+    "Date": "03/05/2021 19:30",
+    "Location": "Narendra Modi Stadium, Ahmedabad",
+    "Home Team": "Kolkata Knight Riders",
+    "Away Team": "Royal Challengers Bangalore",
+    "Group": "",
+    "Result": ""
+  },
+  {
+    "id": "31",
+    "Date": "04/05/2021 19:30",
+    "Location": "Arun Jaitley Stadium, Delhi",
+    "Home Team": "Sunrisers Hyderabad",
+    "Away Team": "Mumbai Indians",
+    "Group": "",
+    "Result": ""
+  },
+  {
+    "id": "32",
+    "Date": "05/05/2021 19:30",
+    "Location": "Arun Jaitley Stadium, Delhi",
+    "Home Team": "Rajasthan Royals",
+    "Away Team": "Chennai Super Kings",
+    "Group": "",
+    "Result": ""
+  },
+  {
+    "id": "33",
+    "Date": "06/05/2021 19:30",
+    "Location": "Narendra Modi Stadium, Ahmedabad",
+    "Home Team": "Royal Challengers Bangalore",
+    "Away Team": "Punjab Kings",
+    "Group": "",
+    "Result": ""
+  },
+  {
+    "id": "34",
+    "Date": "07/05/2021 19:30",
+    "Location": "Arun Jaitley Stadium, Delhi",
+    "Home Team": "Sunrisers Hyderabad",
+    "Away Team": "Chennai Super Kings",
+    "Group": "",
+    "Result": ""
+  },
+  {
+    "id": "35",
+    "Date": "08/05/2021 15:30",
+    "Location": "Narendra Modi Stadium, Ahmedabad",
+    "Home Team": "Kolkata Knight Riders",
+    "Away Team": "Delhi Capitals",
+    "Group": "",
+    "Result": ""
+  },
+  {
+    "id": "36",
+    "Date": "08/05/2021 19:30",
+    "Location": "Arun Jaitley Stadium, Delhi",
+    "Home Team": "Rajasthan Royals",
+    "Away Team": "Mumbai Indians",
+    "Group": "",
+    "Result": ""
+  },
+  {
+    "id": "37",
+    "Date": "09/05/2021 15:30",
+    "Location": "M. Chinnaswamy Stadium, Bengaluru",
+    "Home Team": "Chennai Super Kings",
+    "Away Team": "Punjab Kings",
+    "Group": "",
+    "Result": ""
+  },
+  {
+    "id": "38",
+    "Date": "09/05/2021 19:30",
+    "Location": "Eden Gardens, Kolkata",
+    "Home Team": "Royal Challengers Bangalore",
+    "Away Team": "Sunrisers Hyderabad",
+    "Group": "",
+    "Result": ""
+  },
+  {
+    "id": "39",
+    "Date": "10/05/2021 19:30",
+    "Location": "M. Chinnaswamy Stadium, Bengaluru",
+    "Home Team": "Mumbai Indians",
+    "Away Team": "Kolkata Knight Riders",
+    "Group": "",
+    "Result": ""
+  },
+  {
+    "id": "40",
+    "Date": "11/05/2021 19:30",
+    "Location": "Eden Gardens, Kolkata",
+    "Home Team": "Delhi Capitals",
+    "Away Team": "Rajasthan Royals",
+    "Group": "",
+    "Result": ""
+  },
+  {
+    "id": "41",
+    "Date": "12/05/2021 19:30",
+    "Location": "M. Chinnaswamy Stadium, Bengaluru",
+    "Home Team": "Chennai Super Kings",
+    "Away Team": "Kolkata Knight Riders",
+    "Group": "",
+    "Result": ""
+  },
+  {
+    "id": "42",
+    "Date": "13/05/2021 15:30",
+    "Location": "M. Chinnaswamy Stadium, Bengaluru",
+    "Home Team": "Mumbai Indians",
+    "Away Team": "Punjab Kings",
+    "Group": "",
+    "Result": ""
+  },
+  {
+    "id": "43",
+    "Date": "13/05/2021 19:30",
+    "Location": "Eden Gardens, Kolkata",
+    "Home Team": "Sunrisers Hyderabad",
+    "Away Team": "Rajasthan Royals",
+    "Group": "",
+    "Result": ""
+  },
+  {
+    "id": "44",
+    "Date": "14/05/2021 19:30",
+    "Location": "Eden Gardens, Kolkata",
+    "Home Team": "Royal Challengers Bangalore",
+    "Away Team": "Delhi Capitals",
+    "Group": "",
+    "Result": ""
+  },
+  {
+    "id": "45",
+    "Date": "15/05/2021 19:30",
+    "Location": "M. Chinnaswamy Stadium, Bengaluru",
+    "Home Team": "Kolkata Knight Riders",
+    "Away Team": "Punjab Kings",
+    "Group": "",
+    "Result": ""
+  },
+  {
+    "id": "46",
+    "Date": "16/05/2021 15:30",
+    "Location": "Eden Gardens, Kolkata",
+    "Home Team": "Rajasthan Royals",
+    "Away Team": "Royal Challengers Bangalore",
+    "Group": "",
+    "Result": ""
+  },
+  {
+    "id": "47",
+    "Date": "16/05/2021 19:30",
+    "Location": "M. Chinnaswamy Stadium, Bengaluru",
+    "Home Team": "Chennai Super Kings",
+    "Away Team": "Mumbai Indians",
+    "Group": "",
+    "Result": ""
+  },
+  {
+    "id": "48",
+    "Date": "17/05/2021 19:30",
+    "Location": "Eden Gardens, Kolkata",
+    "Home Team": "Delhi Capitals",
+    "Away Team": "Sunrisers Hyderabad",
+    "Group": "",
+    "Result": ""
+  },
+  {
+    "id": "49",
+    "Date": "18/05/2021 19:30",
+    "Location": "M. Chinnaswamy Stadium, Bengaluru",
+    "Home Team": "Kolkata Knight Riders",
+    "Away Team": "Rajasthan Royals",
+    "Group": "",
+    "Result": ""
+  },
+  {
+    "id": "50",
+    "Date": "19/05/2021 19:30",
+    "Location": "M. Chinnaswamy Stadium, Bengaluru",
+    "Home Team": "Sunrisers Hyderabad",
+    "Away Team": "Punjab Kings",
+    "Group": "",
+    "Result": ""
+  },
+  {
+    "id": "51",
+    "Date": "20/05/2021 19:30",
+    "Location": "Eden Gardens, Kolkata",
+    "Home Team": "Royal Challengers Bangalore",
+    "Away Team": "Mumbai Indians",
+    "Group": "",
+    "Result": ""
+  },
+  {
+    "id": "52",
+    "Date": "21/05/2021 15:30",
+    "Location": "M. Chinnaswamy Stadium, Bengaluru",
+    "Home Team": "Kolkata Knight Riders",
+    "Away Team": "Sunrisers Hyderabad",
+    "Group": "",
+    "Result": ""
+  },
+  {
+    "id": "53",
+    "Date": "21/05/2021 19:30",
+    "Location": "Eden Gardens, Kolkata",
+    "Home Team": "Delhi Capitals",
+    "Away Team": "Chennai Super Kings",
+    "Group": "",
+    "Result": ""
+  },
+  {
+    "id": "54",
+    "Date": "22/05/2021 19:30",
+    "Location": "M. Chinnaswamy Stadium, Bengaluru",
+    "Home Team": "Punjab Kings",
+    "Away Team": "Rajasthan Royals",
+    "Group": "",
+    "Result": ""
+  },
+  {
+    "id": "55",
+    "Date": "23/05/2021 15:30",
+    "Location": "Eden Gardens, Kolkata",
+    "Home Team": "Mumbai Indians",
+    "Away Team": "Delhi Capitals",
+    "Group": "",
+    "Result": ""
+  },
+  {
+    "id": "56",
+    "Date": "23/05/2021 19:30",
+    "Location": "Eden Gardens, Kolkata",
+    "Home Team": "Royal Challengers Bangalore",
+    "Away Team": "Chennai Super Kings",
+    "Group": "",
+    "Result": ""
+  },
+  {
+    "id": "Preliminary Finals",
+    "Date": "25/05/2021 19:30",
+    "Location": "Narendra Modi Stadium, Ahmedabad",
+    "Home Team": "To be announced",
+    "Away Team": "To be announced",
+    "Group": "Qualifier 1",
+    "Result": ""
+  },
+  {
+    "id": "Preliminary Finals",
+    "Date": "26/05/2021 19:30",
+    "Location": "Narendra Modi Stadium, Ahmedabad",
+    "Home Team": "To be announced",
+    "Away Team": "To be announced",
+    "Group": "Eliminator",
+    "Result": ""
+  },
+  {
+    "id": "Qualifier 2",
+    "Date": "28/05/2021 19:30",
+    "Location": "Narendra Modi Stadium, Ahmedabad",
+    "Home Team": "To be announced",
+    "Away Team": "To be announced",
+    "Group": "",
+    "Result": ""
+  },
+  {
+    "id": "Final",
+    "Date": "30/05/2021 19:30",
+    "Location": "Narendra Modi Stadium, Ahmedabad",
+    "Home Team": "To be announced",
+    "Away Team": "To be announced",
+    "Group": "",
+    "Result": ""
+  }
+]
