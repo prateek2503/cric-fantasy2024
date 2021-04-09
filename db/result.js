@@ -19,19 +19,18 @@ function Result() {
             looserList.forEach(function (looser) {
                 lostPoint += looser.bid
             });
-
             winnerList.forEach(function (winner) {
                 let point = winner.balance + ((winner.bid * lostPoint) / winnerTotalPoint)
 
-                pointsDistribution.push({"name": winner.name, "point": point})
+                pointsDistribution.push({"name": winner.player_name, "point": point})
             })
 
             looserList.forEach(function (looser) {
                 let point = looser.balance -looser.bid;
-                pointsDistribution.push({"name": looser.name, "point": point})
+                pointsDistribution.push({"name": looser.player_name, "point": point})
             })
             pointsDistribution.forEach(function (eachBidder) {
-                players_db.update({name: eachBidder.name}, {name: "name", point: eachBidder.point})
+                players_db.update({name: eachBidder.name}, {name: eachBidder.name, point: eachBidder.point})
 
             })
         })
