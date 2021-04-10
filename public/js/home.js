@@ -19,6 +19,13 @@
 
     matchSelections.forEach(function(match) {
 
+        var user = Cookies.get('user');
+        if (!user) {
+            window.location = "/login.html";
+        }
+
+        $("#user-welcome").text(user);
+
         var startTime = Date.parse(match.date);
 
         var html = `
