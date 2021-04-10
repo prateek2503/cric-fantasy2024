@@ -1,4 +1,13 @@
 (function () {
+
+    $.get("player", function(data) {
+        if (data) {
+            $.each(data, function(index, player) {
+                 $('#user').append(new Option(player.name, player.name));
+            });
+        }
+    });
+
     $("#login").click(function(event) {
         var user = $("#user").val();
 
@@ -8,6 +17,6 @@
             return;
         }
 
-        Cookies.set('user', user);
+        Cookies.set('user', user, { expires: 7 });
     });
 })();
