@@ -6,6 +6,12 @@ function Player() {
     this.store = function (player) {
         db.insert(player)
     }
+
+    this.getAll = function(callback) {
+        db.find({}, function (err, docs) {
+            callback(docs);
+        })
+    }
 }
 
 module.exports = Player;
