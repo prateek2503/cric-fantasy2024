@@ -1,30 +1,15 @@
 (function () {
-    const matchSelections =
-        [
-            {
-                "id": 1,
-                "home": "MI",
-                "away": "PK",
-                "date": "2021-04-08T19:30:00.000",
-                "result": "home"
-            },
-            {
-                "id": 2,
-                "home": "RCB",
-                "away": "SRH",
-                "date": "2021-04-10T19:30:00.000"
-            }
-        ];
-
-    matchSelections.forEach(function(match) {
-
-        var startTime = Date.parse(match.date);
+    $.get("matchList", function(matchList) {
+        if (matchList) {
+            $.each(matchList, function(index, match) {
+       var startTime = Date.parse(match.date);
 
         var html = `
     <div class="row border rounded pb-4">
         <div class="row py-4">
             <div class="col-8">
-                Match ${match.id} ${match.home} vs ${match.away}
+                <h5><b>Match ${match.id}</b> ${match.home} vs ${match.away}</h5>
+                <small class="text-muted">at ${match.venue}</small>
             </div>
             <div class="col-4 text-end">
                 ${moment(startTime).format("Do MMM, h:mm A")}
@@ -67,5 +52,7 @@
             }
             console.log(result);
         });
+            });
+        }
     });
 })();
