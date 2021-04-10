@@ -9,6 +9,18 @@
             return;
         }
 
-        $("#generated").html("new user/password: " + user + "/")
+        var player = {};
+        player.name = user;
+
+        $.ajax({
+            type: 'POST',
+            url: '/player/',
+            data: JSON.stringify(player),
+            success: function(data) {
+                $("#generated").html("new user " + user + " created")
+            },
+            contentType: "application/json",
+            dataType: 'json'
+        });
     });
 })();
