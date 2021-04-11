@@ -2,13 +2,18 @@ let Datastore = require('nedb')
 
 function Bid() {
     let db = new Datastore({ filename: './data/bid_details.db', autoload: true });
-    let player_db = new Datastore({ filename: './data/players.db', autoload: true });
 
     this.store = function (bidDetails) {
-        player_db.find({name: bidDetails.player_name}, function (err, docs) {
-            let pointBalance = docs[0].point
-            bidDetails.balance = pointBalance
-            db.insert(bidDetails)
+        db.insert(bidDetails);
+    }
+
+    this.get = function(playerName, callback) {
+        db.find({ player: playerName }, function (err, bidDetails) {
+            let bidDetailsMap = new Map();
+            bidDetails.forEach(function (bidDetail) {
+                bidDetailsMap.set(bidDetail.match_id, bidDetail);
+            });
+            callback(bidDetailsMap);
         })
     }
 }
