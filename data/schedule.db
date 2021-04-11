@@ -1,5 +1,5 @@
-{"id":1,"date":"09 Apr 2021 19:30","venue":"M. A. Chidambaram Stadium, Chennai","home":"Mumbai Indians","away":"Royal Challengers Bangalore","result":"","_id":1}
-{"id":2,"date":"10 Apr 2021 19:30","venue":"Wankhede Stadium, Mumbai","home":"Chennai Super Kings","away":"Delhi Capitals","result":"","_id":2}
+{"id":1,"date":"09 Apr 2021 19:30","venue":"M. A. Chidambaram Stadium, Chennai","home":"Mumbai Indians","away":"Royal Challengers Bangalore","result":"away","_id":1}
+{"id":2,"date":"10 Apr 2021 19:30","venue":"Wankhede Stadium, Mumbai","home":"Chennai Super Kings","away":"Delhi Capitals","result":"away","_id":2}
 {"id":3,"date":"11 Apr 2021 19:30","venue":"M. A. Chidambaram Stadium, Chennai","home":"Sunrisers Hyderabad","away":"Kolkata Knight Riders","result":"","_id":3}
 {"id":4,"date":"12 Apr 2021 19:30","venue":"Wankhede Stadium, Mumbai","home":"Rajasthan Royals","away":"Punjab Kings","result":"","_id":4}
 {"id":5,"date":"13 Apr 2021 19:30","venue":"M. A. Chidambaram Stadium, Chennai","home":"Kolkata Knight Riders","away":"Mumbai Indians","result":"","_id":5}
@@ -58,7 +58,3 @@
 {"id":58,"date":"26 May 2021 19:30","venue":"Narendra Modi Stadium, Ahmedabad","home":"To be announced","away":"To be announced","Group":"Eliminator","result":"","_id":58}
 {"id":59,"date":"28 May 2021 19:30","venue":"Narendra Modi Stadium, Ahmedabad","home":"To be announced","away":"To be announced","result":"","_id":59}
 {"id":60,"date":"30 May 2021 19:30","venue":"Narendra Modi Stadium, Ahmedabad","home":"To be announced","away":"To be announced","result":"","_id":60}
-{"id":1,"date":"09 Apr 2021 19:30","venue":"M. A. Chidambaram Stadium, Chennai","home":"Mumbai Indians","away":"Royal Challengers Bangalore","result":"away","_id":1}
-{"id":2,"date":"10 Apr 2021 19:30","venue":"Wankhede Stadium, Mumbai","home":"Chennai Super Kings","away":"Delhi Capitals","result":"away","_id":2}
-{"id":2,"date":"10 Apr 2021 19:30","venue":"Wankhede Stadium, Mumbai","home":"Chennai Super Kings","away":"Delhi Capitals","result":"home","_id":2}
-{"id":2,"date":"10 Apr 2021 19:30","venue":"Wankhede Stadium, Mumbai","home":"Chennai Super Kings","away":"Delhi Capitals","result":"away","_id":2}
