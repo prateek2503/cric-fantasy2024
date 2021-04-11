@@ -4,7 +4,12 @@ function Bid() {
     let db = new Datastore({ filename: './data/bid_details.db', autoload: true });
 
     this.store = function (bidDetails) {
-        db.insert(bidDetails);
+        db.update(
+            { player: bidDetails.player, match_id: bidDetails.match_id },
+            bidDetails,
+            { upsert: true },
+            function (err, numReplaced) {}
+        );
     }
 
     this.get = function(playerName, callback) {

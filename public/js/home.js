@@ -85,12 +85,11 @@
                     url: '/bid',
                     data: JSON.stringify(bidSelection),
                     success: function(data) {
-
+                        alert("Bid submit ho gaya. Inshallah! jeet tumhari ho.")
                     },
                     contentType: "application/json",
                     dataType: 'json'
                 });
-                console.log(bidSelection);
             });
         });
     });
