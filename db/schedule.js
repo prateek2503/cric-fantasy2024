@@ -7,6 +7,15 @@ function Schedule() {
         db.insert(fixture)
     }
 
+    this.updateResult = function (result) {
+        db.update(
+            { _id: result.id },
+            { $set: { result: result.team } },
+            {},
+            function (err, numReplaced) {}
+        );
+    }
+
     this.getAll = function(callback) {
         db.find({}, function (err, fixture) {
             callback(fixture);

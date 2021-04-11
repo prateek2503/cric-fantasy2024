@@ -1,4 +1,4 @@
-{"match_id":3,"team":"home","bid":"75","player":"Litu","_id":"23055m47l00T5tpM"}
+{"match_id":3,"team":"away","bid":"100","player":"Litu","_id":"23055m47l00T5tpM"}
 {"match_id":1,"player":"Ranju","team":"away","bid":25,"balance":0,"_id":"5ji6dzRh8UtmsGW0"}
 {"match_id":1,"player":"Kou","team":"home","bid":25,"balance":0,"_id":"Nm3V0YKxM9EPttU8"}
 {"match_id":1,"player":"Som","team":"home","bid":50,"balance":0,"_id":"QC8kPrFvekv1LlpC"}
@@ -10,6 +10,3 @@
 {"match_id":1,"player":"Prateek","team":"away","bid":50,"balance":0,"_id":"nspexVkeNEJ1BxSD"}
 {"match_id":1,"player":"Partha","team":"away","bid":100,"balance":0,"_id":"qLWaHbTixAQanKFV"}
 {"match_id":1,"player":"Litu","team":"away","bid":75,"balance":0,"_id":"t3Zw8ozCRXVM0qpJ"}
-{"match_id":3,"team":"away","bid":"50","player":"Litu","_id":"23055m47l00T5tpM"}
-{"match_id":3,"team":"home","bid":"25","player":"Litu","_id":"23055m47l00T5tpM"}
-{"match_id":3,"team":"away","bid":"100","player":"Litu","_id":"23055m47l00T5tpM"}

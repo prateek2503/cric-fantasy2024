@@ -51,6 +51,16 @@
                 return;
             }
             console.log(result);
+            $.ajax({
+                type: 'POST',
+                url: '/result',
+                data: JSON.stringify(result),
+                success: function(data) {
+                    alert("Resulted!")
+                },
+                contentType: "application/json",
+                dataType: 'json'
+            });
         });
             });
         }
