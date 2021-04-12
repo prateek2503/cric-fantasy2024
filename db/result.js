@@ -1,70 +1,66 @@
 let _ = require('lodash')
 let Datastore = require('nedb')
-const Player = require("../db/player")
 
-function Result() {
-    let bid_db = new Datastore({filename: './data/bid_details.db', autoload: true});
-    let players_db = new Datastore({filename: './data/players.db', autoload: true});
-    let schedule_db = new Datastore({filename: './data/schedule.db', autoload: true});
-
-    let player = new Player();
+function Result(bidDb, playersDb) {
 
     this.calculate = function (req) {
         updateBidTable(req);
 
-        bid_db.find({"match_id": req.match_id}, function (err, docs) {
-            let pointsDistribution = [];
-            let winnerList = docs.filter(eachBid => eachBid.bid_on == req.winner)
-            let looserList = docs.filter(eachBid => eachBid.bid_on != req.winner)
+        bidDb.findAllByMatch(req.id, function (bids) {
+            let winnerList = bids.filter(eachBid => eachBid.team == req.team)
+            let loserList = bids.filter(eachBid => eachBid.team != req.team)
 
             let winnerTotalPoint = 0;
-            let lostPoint = 0;
+            let loserTotalPoint = 0;
             winnerList.forEach(function (winner) {
-                winnerTotalPoint += winner.bid
+                winnerTotalPoint += parseInt(winner.bid)
             });
-            looserList.forEach(function (looser) {
-                lostPoint += looser.bid
+            loserList.forEach(function (loser) {
+                loserTotalPoint += parseInt(loser.bid)
             });
-            winnerList.forEach(function (winner) {
-                let point = winner.balance + ((winner.bid * lostPoint) / winnerTotalPoint)
 
-                pointsDistribution.push({"name": winner.player_name, "point": point})
+            winnerList.forEach(function (winner) {
+                playersDb.find(winner.player, function(players) {
+                    if (players && players.length > 0) {
+                        let winnings = ((parseInt(winner.bid) * loserTotalPoint) / winnerTotalPoint);
+                        let point = parseFloat(players[0].point) + winnings;
+                        playersDb.updatePoints(winner.player, point);
+                    }
+                });
             })
 
-            looserList.forEach(function (looser) {
-                let point = looser.balance - looser.bid;
-                pointsDistribution.push({"name": looser.player_name, "point": point})
-            })
-            pointsDistribution.forEach(function (eachBidder) {
-                players_db.update({name: eachBidder.name}, {$set: {name: eachBidder.name, point: eachBidder.point}})
+            loserList.forEach(function (loser) {
+                playersDb.find(loser.player, function(players) {
+                    if (players && players.length > 0) {
+                        let point = parseFloat(players[0].point) - parseInt(loser.bid);
+                        playersDb.updatePoints(loser.player, point);
+                    }
+                });
             })
         })
     }
 
     let updateBidTable = function (req) {
-        schedule_db.find({id: req.match_id}, function (err, docs) {
-            let loosingTeam = docs[0].result == 'home' ? 'away' : 'home';
+        let loosingTeam = req.team == 'home' ? 'away' : 'home';
 
-            bid_db.find({match_id: req.match_id}, function (err, bidders) {
-                players_db.find({}, function (err, allPlayers) {
-                    if (bidders.length != allPlayers.length) {
-                        allPlayers.forEach(function (eachPlayer) {
-                            if (_.findIndex(bidders, {name: eachPlayer.name}) < 0) {
-                                let defaultBid = {
-                                    "match_id": req.match_id,
-                                    "team": loosingTeam,
-                                    "bid": "25",
-                                    "player": eachPlayer.name
-                                }
-
-                                bid_db.insert(defaultBid)
+        bidDb.findByMatch(req.id, function (bidMap) {
+            playersDb.getAll(function (allPlayers) {
+                if (bidMap.size != allPlayers.length) {
+                    allPlayers.forEach(function (eachPlayer) {
+                        if (!bidMap.get(eachPlayer.name)) {
+                            let defaultBid = {
+                                "match_id": req.id,
+                                "team": loosingTeam,
+                                "bid": "25",
+                                "player": eachPlayer.name
                             }
-                        })
 
-                    }
-                })
-            })
-        })
+                            bidDb.saveDefaultBid(defaultBid);
+                        }
+                    })
+                }
+            });
+        });
     }
 }
 

@@ -38,6 +38,8 @@
 
         if (match.result) {
             $("#" + match.result + "-" + match.id).prop('checked', true);
+            $("#teams-" + match.id + " :input").prop('disabled', true);
+            $("#submit-" + match.id).prop('disabled', true);
         }
 
         $("#submit-" +  match.id).click(function(event) {
@@ -56,10 +58,9 @@
                 url: '/result',
                 data: JSON.stringify(result),
                 success: function(data) {
-                    alert("Resulted!")
+                    alert(data)
                 },
-                contentType: "application/json",
-                dataType: 'json'
+                contentType: "application/json"
             });
         });
             });

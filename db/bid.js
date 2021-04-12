@@ -12,6 +12,10 @@ function Bid() {
         );
     }
 
+    this.saveDefaultBid = function (bidDetails) {
+        db.insert(bidDetails);
+    }
+
     this.get = function(playerName, callback) {
         db.find({ player: playerName }, function (err, bidDetails) {
             let bidDetailsMap = new Map();
@@ -19,6 +23,22 @@ function Bid() {
                 bidDetailsMap.set(bidDetail.match_id, bidDetail);
             });
             callback(bidDetailsMap);
+        })
+    }
+
+    this.findByMatch = function(matchId, callback) {
+        db.find({match_id: matchId}, function (err, bidDetails) {
+            let bidDetailsMap = new Map();
+            bidDetails.forEach(function (bidDetail) {
+                bidDetailsMap.set(bidDetail.player, bidDetail);
+            });
+            callback(bidDetailsMap);
+        })
+    }
+
+    this.findAllByMatch = function(matchId, callback) {
+        db.find({match_id: matchId}, function (err, bidDetails) {
+            callback(bidDetails);
         })
     }
 }

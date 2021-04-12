@@ -16,6 +16,12 @@ function Schedule() {
         );
     }
 
+    this.get = function(matchId, callback) {
+        db.find({ _id: matchId }, function (err, fixture) {
+            callback(fixture);
+        })
+    }
+
     this.getAll = function(callback) {
         db.find({}, function (err, fixture) {
             callback(fixture);
