@@ -6,6 +6,8 @@ function Result() {
 
     this.calculate = function (req) {
 
+        // updateBidTable(req);
+
         bid_db.find({"match_id": req.match_id}, function (err, docs) {
             let pointsDistribution = [];
             let winnerList = docs.filter(eachBid => eachBid.bid_on == req.winner)
@@ -34,6 +36,10 @@ function Result() {
 
             })
         })
+    }
+
+    let updateBidTable = function (req) {
+
     }
 }
 
