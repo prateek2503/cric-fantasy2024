@@ -17,7 +17,7 @@ function Result(bidDb, playersDb) {
             let winnerTotalPoint = 0;
             let loserTotalPoint = 0;
             winnerList.forEach(function (winner) {
-                winnerTotalPoint += parseInt(winner.bid)
+                winnerTotalPoint += parseInt(winner.bid):
             });
             loserList.forEach(function (loser) {
                 loserTotalPoint += parseInt(loser.bid)
@@ -26,8 +26,9 @@ function Result(bidDb, playersDb) {
             winnerList.forEach(function (winner) {
                 playersDb.find(winner.player, function(players) {
                     if (players && players.length > 0) {
-                        let winnings = ((parseInt(winner.bid) * loserTotalPoint) / winnerTotalPoint);
-                        let point = parseFloat(players[0].point) + winnings;
+                        let winnerBid = parseInt(winner.bid);
+                        let winnings = ((winnerBid * loserTotalPoint) / winnerTotalPoint);
+                        let point = parseFloat(players[0].point) + winnerBid + parseFloat(winnings.toFixed(2));
                         playersDb.updatePoints(winner.player, point);
                     }
                 });
