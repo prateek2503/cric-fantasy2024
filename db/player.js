@@ -4,7 +4,8 @@ function Player() {
     let db = new Datastore({ filename: './data/players.db', autoload: true });
 
     this.store = function (player) {
-        db.insert(player)
+        player.point = 0;
+        db.insert(player);
     }
 
     this.find = function(playerName, callback) {
@@ -30,6 +31,15 @@ function Player() {
             { name: playerName },
             { $set: { point: points } },
             {},
+            function (err, numReplaced) {}
+        );
+    }
+
+    this.reset = function() {
+        db.update(
+            {},
+            { $set: { point: 0 } },
+            { multi: true },
             function (err, numReplaced) {}
         );
     }

@@ -27,6 +27,15 @@ function Schedule() {
             callback(fixture);
         })
     }
+
+    this.reset = function() {
+        db.update(
+            {},
+            { $set: { result: '' } },
+            { multi: true },
+            function (err, numReplaced) {}
+        );
+    }
 }
 
 module.exports = Schedule;

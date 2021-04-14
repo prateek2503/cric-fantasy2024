@@ -4,8 +4,12 @@ let Datastore = require('nedb')
 function Result(bidDb, playersDb) {
 
     this.calculate = function (req) {
-        updateBidTable(req);
+        saveDefaultBids(req, function () {
+            calculatePoints(req);
+        });
+    }
 
+    let calculatePoints = function (req) {
         bidDb.findAllByMatch(req.id, function (bids) {
             let winnerList = bids.filter(eachBid => eachBid.team == req.team)
             let loserList = bids.filter(eachBid => eachBid.team != req.team)
@@ -40,7 +44,7 @@ function Result(bidDb, playersDb) {
         })
     }
 
-    let updateBidTable = function (req) {
+    let saveDefaultBids = function (req, callback) {
         let loosingTeam = req.team == 'home' ? 'away' : 'home';
 
         bidDb.findByMatch(req.id, function (bidMap) {
@@ -59,6 +63,8 @@ function Result(bidDb, playersDb) {
                         }
                     })
                 }
+
+                callback();
             });
         });
     }

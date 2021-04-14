@@ -41,6 +41,20 @@ function Bid() {
             callback(bidDetails);
         })
     }
+
+    this.findAll = function(callback) {
+        db.find({}, function (err, bidDetails) {
+            callback(bidDetails);
+        })
+    }
+
+    this.truncate = function() {
+        db.remove(
+            {},
+            { multi: true },
+            function (err, numRemoved) {}
+        );
+    }
 }
 
 module.exports = Bid;
