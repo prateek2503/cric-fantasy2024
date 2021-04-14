@@ -12,7 +12,7 @@
         }
 
         $.each(matchList, function(index, match) {
-            var startTime = Date.parse(match.date);
+            var startTime = Date.parse(match.date + ' GMT+0530');
 
             var html = `
         <div class="row border rounded pb-4">
