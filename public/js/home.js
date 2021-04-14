@@ -18,7 +18,8 @@
         <div class="row border rounded pb-4">
             <div class="row py-4">
                 <div class="col-8">
-                    Match ${match.id} ${match.home} vs ${match.away}
+                    <h5><b>Match ${match.id}</b> ${match.home} vs ${match.away}</h5>
+                    <small class="text-muted">at ${match.venue}</small>
                 </div>
                 <div class="col-4 text-end">
                     ${moment(startTime).format("Do MMM, h:mm A")}
