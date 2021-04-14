@@ -17,7 +17,7 @@ function Result(bidDb, playersDb) {
             let winnerTotalPoint = 0;
             let loserTotalPoint = 0;
             winnerList.forEach(function (winner) {
-                winnerTotalPoint += parseInt(winner.bid):
+                winnerTotalPoint += parseInt(winner.bid)
             });
             loserList.forEach(function (loser) {
                 loserTotalPoint += parseInt(loser.bid)
