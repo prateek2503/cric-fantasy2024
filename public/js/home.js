@@ -37,7 +37,7 @@
                 </div>
                 <div class="d-grid gap-2 col-6 text-end">
                     <div class="input-group">
-                        <label class="input-group-text" for="bid-select-${match.id}">Bid</label>
+                        <label class="input-group-text" for="bid-select-${match.id}">Boli</label>
                         <select class="form-select" id="bid-select-${match.id}">
                             <option value="25" selected>25</option>
                             <option value="50">50</option>
@@ -46,7 +46,7 @@
                         </select>
                     </div>
                     <div class="float-end">
-                        <button type="submit" id="submit-${match.id}" class="btn btn-primary">Submit bid</button>
+                        <button type="submit" id="submit-${match.id}" class="btn btn-primary">Boli lagao</button>
                     </div>
                 </div>
             </div>
@@ -86,7 +86,7 @@
                     url: '/bid',
                     data: JSON.stringify(bidSelection),
                     success: function(data) {
-                        alert("Bid submit ho gaya. Inshallah! jeet tumhari ho.")
+                        alert("Boli lag gayi. Inshallah! jeet tumhari ho.")
                     },
                     contentType: "application/json",
                     dataType: 'json'
