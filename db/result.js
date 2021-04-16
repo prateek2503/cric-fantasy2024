@@ -28,7 +28,7 @@ function Result(bidDb, playersDb) {
                     if (players && players.length > 0) {
                         let winnerBid = parseInt(winner.bid);
                         let winnings = ((winnerBid * loserTotalPoint) / winnerTotalPoint);
-                        let point = parseFloat(players[0].point) + winnerBid + parseFloat(winnings.toFixed(2));
+                        let point = parseFloat(players[0].point) + winnerBid + parseFloat(winnings);
                         playersDb.updatePoints(winner.player, point);
                     }
                 });

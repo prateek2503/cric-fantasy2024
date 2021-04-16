@@ -42,12 +42,6 @@ function Bid() {
         })
     }
 
-    this.findAll = function(callback) {
-        db.find({}).sort({ match_id: 1 }).exec(function (err, bidDetails) {
-            callback(bidDetails);
-        })
-    }
-
     this.truncate = function() {
         db.remove(
             {},
