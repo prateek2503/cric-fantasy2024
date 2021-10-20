@@ -22,33 +22,34 @@
 {"id":27,"date":"01 May 2021 19:30","venue":"Arun Jaitley Stadium, Delhi","home":"Mumbai Indians","away":"Chennai Super Kings","result":"home","_id":27}
 {"id":28,"date":"02 May 2021 15:30","venue":"Arun Jaitley Stadium, Delhi","home":"Rajasthan Royals","away":"Sunrisers Hyderabad","result":"home","_id":28}
 {"id":29,"date":"02 May 2021 19:30","venue":"Narendra Modi Stadium, Ahmedabad","home":"Punjab Kings","away":"Delhi Capitals","result":"away","_id":29}
-{"id":31,"date":"20 Sep 2021 19:30","venue":"Zayed Cricket Stadium, Abu Dhabi","home":"Kolkata Knight Riders","away":"Royal Challengers Bangalore","result":"","_id":31}
-{"id":32,"date":"21 Sep 2021 19:30","venue":"Dubai International Stadium, Dubai","home":"Punjab Kings","away":"Rajasthan Royals","result":"","_id":32}
-{"id":33,"date":"22 Sep 2021 19:30","venue":"Dubai International Stadium, Dubai","home":"Delhi Capitals","away":"Sunrisers Hyderabad","result":"","_id":33}
-{"id":34,"date":"23 Sep 2021 19:30","venue":"Zayed Cricket Stadium, Abu Dhabi","home":"Mumbai Indians","away":"Kolkata Knight Riders","result":"","_id":34}
-{"id":35,"date":"24 Sep 2021 19:30","venue":"Sharjah Cricket Stadium, Sharjah","home":"Royal Challengers Bangalore","away":"Chennai Super Kings","result":"","_id":35}
-{"id":36,"date":"25 Sep 2021 15:30","venue":"Zayed Cricket Stadium, Abu Dhabi","home":"Delhi Capitals","away":"Rajasthan Royals","result":"","_id":36}
-{"id":37,"date":"25 Sep 2021 19:30","venue":"Sharjah Cricket Stadium, Sharjah","home":"Sunrisers Hyderabad","away":"Punjab Kings","result":"","_id":37}
-{"id":38,"date":"26 Sep 2021 15:30","venue":"Zayed Cricket Stadium, Abu Dhabi","home":"Chennai Super Kings","away":"Kolkata Knight Riders","result":"","_id":38}
-{"id":39,"date":"26 Sep 2021 19:30","venue":"Dubai International Stadium, Dubai","home":"Royal Challengers Bangalore","away":"Mumbai Indians","result":"","_id":39}
-{"id":40,"date":"27 Sep 2021 19:30","venue":"Dubai International Stadium, Dubai","home":"Sunrisers Hyderabad","away":"Rajasthan Royals","result":"","_id":40}
-{"id":41,"date":"28 Sep 2021 15:30","venue":"Sharjah Cricket Stadium, Sharjah","home":"Kolkata Knight Riders","away":"Delhi Capitals","result":"","_id":41}
-{"id":42,"date":"28 Sep 2021 19:30","venue":"Zayed Cricket Stadium, Abu Dhabi","home":"Mumbai Indians","away":"Punjab Kings","result":"","_id":42}
-{"id":43,"date":"29 Sep 2021 19:30","venue":"Dubai International Stadium, Dubai","home":"Rajasthan Royals","away":"Royal Challengers Bangalore","result":"","_id":43}
-{"id":44,"date":"30 Sep 2021 19:30","venue":"Sharjah Cricket Stadium, Sharjah","home":"Sunrisers Hyderabad","away":"Chennai Super Kings","result":"","_id":44}
-{"id":45,"date":"01 Oct 2021 19:30","venue":"Dubai International Stadium, Dubai","home":"Kolkata Knight Riders","away":"Punjab Kings","result":"","_id":45}
-{"id":46,"date":"02 Oct 2021 15:30","venue":"Sharjah Cricket Stadium, Sharjah","home":"Mumbai Indians","away":"Delhi Capitals","result":"","_id":46}
-{"id":47,"date":"02 Oct 2021 19:30","venue":"Zayed Cricket Stadium, Abu Dhabi","home":"Rajasthan Royals","away":"Chennai Super Kings","result":"","_id":47}
-{"id":48,"date":"03 Oct 2021 15:30","venue":"Sharjah Cricket Stadium, Sharjah","home":"Royal Challengers Bangalore","away":"Punjab Kings","result":"","_id":48}
-{"id":49,"date":"03 Oct 2021 19:30","venue":"Dubai International Stadium, Dubai","home":"Kolkata Knight Riders","away":"Sunrisers Hyderabad","result":"","_id":49}
-{"id":50,"date":"04 Oct 2021 19:30","venue":"Dubai International Stadium, Dubai","home":"Delhi Capitals","away":"Chennai Super Kings","result":"","_id":50}
-{"id":51,"date":"05 Oct 2021 19:30","venue":"Sharjah Cricket Stadium, Sharjah","home":"Rajasthan Royals","away":"Mumbai Indians","result":"","_id":51}
-{"id":52,"date":"06 Oct 2021 19:30","venue":"Zayed Cricket Stadium, Abu Dhabi","home":"Royal Challengers Bangalore","away":"Sunrisers Hyderabad","result":"","_id":52}
-{"id":53,"date":"07 Oct 2021 15:30","venue":"Dubai International Stadium, Dubai","home":"Chennai Super Kings","away":"Punjab Kings","result":"","_id":53}
-{"id":54,"date":"07 Oct 2021 19:30","venue":"Sharjah Cricket Stadium, Sharjah","home":"Kolkata Knight Riders","away":"Rajasthan Royals","result":"","_id":54}
-{"id":55,"date":"08 Oct 2021 15:30","venue":"Zayed Cricket Stadium, Abu Dhabi","home":"Sunrisers Hyderabad","away":"Mumbai Indians","result":"","_id":55}
-{"id":56,"date":"08 Oct 2021 19:30","venue":"Dubai International Stadium, Dubai","home":"Royal Challengers Bangalore","away":"Delhi Capitals","result":"","_id":56}
-{"id":57,"date":"10 Oct 2021 19:30","venue":"Dubai International Stadium, Dubai","home":"To be announced","away":"To be announced","Group":"Qualifier 1","result":"","_id":57}
-{"id":58,"date":"11 Oct 2021 19:30","venue":"Sharjah Cricket Stadium, Sharjah","home":"To be announced","away":"To be announced","Group":"Eliminator","result":"","_id":58}
-{"id":59,"date":"13 Oct 2021 19:30","venue":"Sharjah Cricket Stadium, Sharjah","home":"To be announced","away":"To be announced","result":"","_id":59}
-{"id":60,"date":"15 Oct 2021 19:30","venue":"Dubai International Stadium, Dubai","home":"To be announced","away":"To be announced","result":"","_id":60}
+{"id":31,"date":"20 Sep 2021 19:30","venue":"Zayed Cricket Stadium, Abu Dhabi","home":"Kolkata Knight Riders","away":"Royal Challengers Bangalore","result":"home","_id":31}
+{"id":32,"date":"21 Sep 2021 19:30","venue":"Dubai International Stadium, Dubai","home":"Punjab Kings","away":"Rajasthan Royals","result":"away","_id":32}
+{"id":33,"date":"22 Sep 2021 19:30","venue":"Dubai International Stadium, Dubai","home":"Delhi Capitals","away":"Sunrisers Hyderabad","result":"home","_id":33}
+{"id":34,"date":"23 Sep 2021 19:30","venue":"Zayed Cricket Stadium, Abu Dhabi","home":"Mumbai Indians","away":"Kolkata Knight Riders","result":"away","_id":34}
+{"id":35,"date":"24 Sep 2021 19:30","venue":"Sharjah Cricket Stadium, Sharjah","home":"Royal Challengers Bangalore","away":"Chennai Super Kings","result":"away","_id":35}
+{"id":36,"date":"25 Sep 2021 15:30","venue":"Zayed Cricket Stadium, Abu Dhabi","home":"Delhi Capitals","away":"Rajasthan Royals","result":"home","_id":36}
+{"id":37,"date":"25 Sep 2021 19:30","venue":"Sharjah Cricket Stadium, Sharjah","home":"Sunrisers Hyderabad","away":"Punjab Kings","result":"away","_id":37}
+{"id":38,"date":"26 Sep 2021 15:30","venue":"Zayed Cricket Stadium, Abu Dhabi","home":"Chennai Super Kings","away":"Kolkata Knight Riders","result":"home","_id":38}
+{"id":39,"date":"26 Sep 2021 19:30","venue":"Dubai International Stadium, Dubai","home":"Royal Challengers Bangalore","away":"Mumbai Indians","result":"home","_id":39}
+{"id":40,"date":"27 Sep 2021 19:30","venue":"Dubai International Stadium, Dubai","home":"Sunrisers Hyderabad","away":"Rajasthan Royals","result":"home","_id":40}
+{"id":41,"date":"28 Sep 2021 15:30","venue":"Sharjah Cricket Stadium, Sharjah","home":"Kolkata Knight Riders","away":"Delhi Capitals","result":"home","_id":41}
+{"id":42,"date":"28 Sep 2021 19:30","venue":"Zayed Cricket Stadium, Abu Dhabi","home":"Mumbai Indians","away":"Punjab Kings","result":"home","_id":42}
+{"id":43,"date":"29 Sep 2021 19:30","venue":"Dubai International Stadium, Dubai","home":"Rajasthan Royals","away":"Royal Challengers Bangalore","result":"away","_id":43}
+{"id":44,"date":"30 Sep 2021 19:30","venue":"Sharjah Cricket Stadium, Sharjah","home":"Sunrisers Hyderabad","away":"Chennai Super Kings","result":"away","_id":44}
+{"id":45,"date":"01 Oct 2021 19:30","venue":"Dubai International Stadium, Dubai","home":"Kolkata Knight Riders","away":"Punjab Kings","result":"away","_id":45}
+{"id":46,"date":"02 Oct 2021 15:30","venue":"Sharjah Cricket Stadium, Sharjah","home":"Mumbai Indians","away":"Delhi Capitals","result":"away","_id":46}
+{"id":47,"date":"02 Oct 2021 19:30","venue":"Zayed Cricket Stadium, Abu Dhabi","home":"Rajasthan Royals","away":"Chennai Super Kings","result":"home","_id":47}
+{"id":48,"date":"03 Oct 2021 15:30","venue":"Sharjah Cricket Stadium, Sharjah","home":"Royal Challengers Bangalore","away":"Punjab Kings","result":"home","_id":48}
+{"id":49,"date":"03 Oct 2021 19:30","venue":"Dubai International Stadium, Dubai","home":"Kolkata Knight Riders","away":"Sunrisers Hyderabad","result":"home","_id":49}
+{"id":50,"date":"04 Oct 2021 19:30","venue":"Dubai International Stadium, Dubai","home":"Delhi Capitals","away":"Chennai Super Kings","result":"home","_id":50}
+{"id":51,"date":"05 Oct 2021 19:30","venue":"Sharjah Cricket Stadium, Sharjah","home":"Rajasthan Royals","away":"Mumbai Indians","result":"away","_id":51}
+{"id":52,"date":"06 Oct 2021 19:30","venue":"Zayed Cricket Stadium, Abu Dhabi","home":"Royal Challengers Bangalore","away":"Sunrisers Hyderabad","result":"away","_id":52}
+{"id":53,"date":"07 Oct 2021 15:30","venue":"Dubai International Stadium, Dubai","home":"Chennai Super Kings","away":"Punjab Kings","result":"away","_id":53}
+{"id":54,"date":"07 Oct 2021 19:30","venue":"Sharjah Cricket Stadium, Sharjah","home":"Kolkata Knight Riders","away":"Rajasthan Royals","result":"home","_id":54}
+{"id":55,"date":"08 Oct 2021 19:30","venue":"Zayed Cricket Stadium, Abu Dhabi","home":"Sunrisers Hyderabad","away":"Mumbai Indians","result":"away","_id":55}
+{"id":56,"date":"08 Oct 2021 19:30","venue":"Dubai International Stadium, Dubai","home":"Royal Challengers Bangalore","away":"Delhi Capitals","result":"home","_id":56}
+{"id":57,"date":"10 Oct 2021 19:30","venue":"Dubai International Stadium, Dubai","home":"Delhi Capitals","away":"Chennai Super Kings","Group":"Qualifier 1","result":"away","_id":57}
+{"id":58,"date":"11 Oct 2021 19:30","venue":"Sharjah Cricket Stadium, Sharjah","home":"Kolkata Knight Riders","away":"Royal Challengers Bangalore","Group":"Eliminator","result":"home","_id":58}
+{"id":59,"date":"13 Oct 2021 19:30","venue":"Sharjah Cricket Stadium, Sharjah","home":"Delhi Capitals","away":"Kolkata Knight Riders","result":"away","_id":59}
+{"id":60,"date":"15 Oct 2021 19:30","venue":"Dubai International Stadium, Dubai","home":"Chennai Super Kings","away":"Kolkata Knight Riders","result":"","_id":60}
+{"id":60,"date":"15 Oct 2021 19:30","venue":"Dubai International Stadium, Dubai","home":"Chennai Super Kings","away":"Kolkata Knight Riders","result":"home","_id":60}

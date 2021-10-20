@@ -1,7 +1,7 @@
 let Datastore = require('nedb')
 
 function Bid() {
-    let db = new Datastore({ filename: './data/bid_details.db', autoload: true });
+    let db = new Datastore({ filename: './data/bid_details-t20-wc-2021.db', autoload: true });
 
     this.store = function (bidDetails) {
         db.update(

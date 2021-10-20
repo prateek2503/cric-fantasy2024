@@ -1,7 +1,7 @@
 let Datastore = require('nedb')
 
 function Schedule() {
-    let db = new Datastore({ filename: './data/schedule.db', autoload: true });
+    let db = new Datastore({ filename: './data/schedule-t20-wc-2021.db', autoload: true });
 
     this.store = function (fixture) {
         db.insert(fixture)
