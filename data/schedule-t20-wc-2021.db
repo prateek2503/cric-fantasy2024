@@ -12,34 +12,34 @@
 {"id":12,"date":"22 Oct 2021 19:30","venue":"Abu Dhabi","home":"Sri Lanka","away":"Netherlands","result":"","_id":12}
 {"id":13,"date":"23 Oct 2021 15:30","venue":"Abu Dhabi","home":"Australia","away":"South Africa","result":"","_id":13}
 {"id":14,"date":"23 Oct 2021 19:30","venue":"Abu Dhabi","home":"England","away":"West Indies","result":"","_id":14}
-{"id":15,"date":"24 Oct 2021 15:30","venue":"Sharjah","home":"A1","away":"B2","result":"","_id":15}
+{"id":15,"date":"24 Oct 2021 15:30","venue":"Sharjah","home":"Sri Lanka","away":"Bangladesh","result":"","_id":15}
 {"id":16,"date":"24 Oct 2021 19:30","venue":"Dubai","home":"India","away":"Pakistan","result":"","_id":16}
-{"id":17,"date":"25 Oct 2021 19:30","venue":"Sharjah","home":"Afghanistan","away":"B1","result":"","_id":17}
+{"id":17,"date":"25 Oct 2021 19:30","venue":"Sharjah","home":"Afghanistan","away":"Scotland","result":"","_id":17}
 {"id":18,"date":"26 Oct 2021 15:30","venue":"Dubai","home":"South Africa","away":"West Indies","result":"","_id":18}
 {"id":19,"date":"26 Oct 2021 19:30","venue":"Sharjah","home":"Pakistan","away":"New Zealand","result":"","_id":19}
-{"id":20,"date":"27 Oct 2021 15:30","venue":"Abu Dhabi","home":"England","away":"B2","result":"","_id":20}
-{"id":21,"date":"27 Oct 2021 19:30","venue":"Abu Dhabi","home":"B1","away":"A2","result":"","_id":21}
-{"id":22,"date":"28 Oct 2021 19:30","venue":"Dubai","home":"Australia","away":"A1","result":"","_id":22}
-{"id":23,"date":"29 Oct 2021 15:30","venue":"Sharjah","home":"West Indies","away":"B2","result":"","_id":23}
+{"id":20,"date":"27 Oct 2021 15:30","venue":"Abu Dhabi","home":"England","away":"Bangladesh","result":"","_id":20}
+{"id":21,"date":"27 Oct 2021 19:30","venue":"Abu Dhabi","home":"Scotland","away":"Namibia","result":"","_id":21}
+{"id":22,"date":"28 Oct 2021 19:30","venue":"Dubai","home":"Australia","away":"Sri Lanka","result":"","_id":22}
+{"id":23,"date":"29 Oct 2021 15:30","venue":"Sharjah","home":"West Indies","away":"Bangladesh","result":"","_id":23}
 {"id":24,"date":"29 Oct 2021 19:30","venue":"Dubai","home":"Afghanistan","away":"Pakistan","result":"","_id":24}
-{"id":25,"date":"30 Oct 2021 15:30","venue":"Sharjah","home":"South Africa","away":"A1","result":"","_id":25}
+{"id":25,"date":"30 Oct 2021 15:30","venue":"Sharjah","home":"South Africa","away":"Sri Lanka","result":"","_id":25}
 {"id":26,"date":"30 Oct 2021 19:30","venue":"Dubai","home":"England","away":"Australia","result":"","_id":26}
-{"id":27,"date":"31 Oct 2021 15:30","venue":"Afghanistan","home":"A2","away":"B2","result":"","_id":27}
+{"id":27,"date":"31 Oct 2021 15:30","venue":"Afghanistan","home":"Namibia","away":"Bangladesh","result":"","_id":27}f
 {"id":28,"date":"31 Oct 2021 19:30","venue":"Dubai","home":"India","away":"New Zealand","result":"","_id":28}
-{"id":29,"date":"01 Nov 2021 19:30","venue":"Sharjah","home":"England","away":"A1","result":"","_id":29}
-{"id":30,"date":"02 Nov 2021 15:30","venue":"Abu Dhabi","home":"South Africa","away":"B2","result":"","_id":30}
-{"id":31,"date":"02 Nov 2021 19:30","venue":"Abu Dhabi","home":"Pakistan","away":"A2","result":"","_id":31}
-{"id":32,"date":"03 Nov 2021 15:30","venue":"Dubai","home":"New Zealand","away":"B1","result":"","_id":32}
+{"id":29,"date":"01 Nov 2021 19:30","venue":"Sharjah","home":"England","away":"Sri Lanka","result":"","_id":29}
+{"id":30,"date":"02 Nov 2021 15:30","venue":"Abu Dhabi","home":"South Africa","away":"Bangladesh","result":"","_id":30}
+{"id":31,"date":"02 Nov 2021 19:30","venue":"Abu Dhabi","home":"Pakistan","away":"Namibia","result":"","_id":31}
+{"id":32,"date":"03 Nov 2021 15:30","venue":"Dubai","home":"New Zealand","away":"Scotland","result":"","_id":32}
 {"id":33,"date":"03 Nov 2021 19:30","venue":"Abu Dhabi","home":"India","away":"Afghanistan","result":"","_id":33}
-{"id":34,"date":"04 Nov 2021 15:30","venue":"Dubai","home":"Australia","away":"B2","result":"","_id":34}
-{"id":35,"date":"04 Nov 2021 19:30","venue":"Abu Dhabi","home":"West Indies","away":"A1","result":"","_id":35}
-{"id":36,"date":"05 Nov 2021 15:30","venue":"Sharjah","home":"New Zealand","away":"A2","result":"","_id":36}
-{"id":37,"date":"05 Nov 2021 19:30","venue":"Dubai","home":"India","away":"B1","result":"","_id":37}
+{"id":34,"date":"04 Nov 2021 15:30","venue":"Dubai","home":"Australia","away":"Bangladesh","result":"","_id":34}
+{"id":35,"date":"04 Nov 2021 19:30","venue":"Abu Dhabi","home":"West Indies","away":"Sri Lanka","result":"","_id":35}
+{"id":36,"date":"05 Nov 2021 15:30","venue":"Sharjah","home":"New Zealand","away":"Namibia","result":"","_id":36}
+{"id":37,"date":"05 Nov 2021 19:30","venue":"Dubai","home":"India","away":"Scotland","result":"","_id":37}
 {"id":38,"date":"06 Nov 2021 15:30","venue":"Abu Dhabi","home":"Australia","away":"West Indies","result":"","_id":38}
 {"id":39,"date":"06 Nov 2021 19:30","venue":"Sharjah","home":"England","away":"South Africa","result":"","_id":39}
 {"id":40,"date":"07 Nov 2021 15:30","venue":"Abu Dhabi","home":"New Zealand","away":"Afghanistan","result":"","_id":40}
-{"id":41,"date":"07 Nov 2021 19:30","venue":"Sharjah","home":"Pakistan","away":"B1","result":"","_id":41}
-{"id":42,"date":"08 Nov 2021 19:30","venue":"Dubai","home":"India","away":"A2","result":"","_id":42}
+{"id":41,"date":"07 Nov 2021 19:30","venue":"Sharjah","home":"Pakistan","away":"Scotland","result":"","_id":41}
+{"id":42,"date":"08 Nov 2021 19:30","venue":"Dubai","home":"India","away":"Namibia","result":"","_id":42}
 {"id":43,"date":"10 Nov 2021 19:30","venue":"Abu Dhabi","home":"TBD","away":"TBD","result":"","_id":43}
 {"id":44,"date":"11 Nov 2021 19:30","venue":"Dubai","home":"TBD","away":"TBD","result":"","_id":44}
 {"id":45,"date":"14 Nov 2021 19:30","venue":"Dubai","home":"TBD","away":"TBD","result":"","_id":45}
