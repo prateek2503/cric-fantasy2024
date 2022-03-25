@@ -1,7 +1,7 @@
 let Datastore = require('nedb')
 
 function Player() {
-    let db = new Datastore({ filename: './data/players-t20-wc-2021.db', autoload: true });
+    let db = new Datastore({ filename: './data/players.db', autoload: true });
 
     this.store = function (player) {
         player.point = 0;
