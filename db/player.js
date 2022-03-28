@@ -4,12 +4,27 @@ function Player() {
     let db = new Datastore({ filename: './data/players.db', autoload: true });
 
     this.store = function (player) {
-        player.point = 0;
-        db.insert(player);
+        db.update(
+            { name: player.name },
+            { $set: { code: player.code } },
+            {},
+            function (err, numUpdated) {
+                if (numUpdated == 0) {
+                    player.point = 0;
+                    db.insert(player);
+                }
+            }
+        );
     }
 
     this.find = function(playerName, callback) {
         db.find({ name : playerName}, function (err, docs) {
+            callback(docs);
+        })
+    }
+
+    this.findByCode = function(code, callback) {
+        db.findOne({ code : code}, function (err, docs) {
             callback(docs);
         })
     }

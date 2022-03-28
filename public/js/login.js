@@ -1,22 +1,25 @@
 (function () {
 
-    $.get("player", function(data) {
-        if (data) {
-            $.each(data, function(index, player) {
-                 $('#user').append(new Option(player.name, player.name));
-            });
-        }
+    const params = new Proxy(new URLSearchParams(window.location.search), {
+      get: (searchParams, prop) => searchParams.get(prop),
     });
 
-    $("#login").click(function(event) {
-        var user = $("#user").val();
+    if (params.unknownIdentity !== null) {
+        $("#unknownIdentity").show();
+    } else {
+        $("#unknownIdentity").hide();
+    }
 
-        if (!user) {
+    $("#login").click(function(event) {
+        var code = $("#code").val();
+
+        if (!code) {
             alert("Pehchan batao bhai!");
+            event.preventDefault();
             event.stopPropagation();
             return;
         }
 
-        Cookies.set('user', user, { expires: 7 });
+        Cookies.set('code', code, { expires: 7 });
     });
 })();
