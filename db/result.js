@@ -16,6 +16,8 @@ function Result(bidDb, playersDb) {
 
             let winnerTotalPoint = 0;
             let loserTotalPoint = 0;
+			let loserBid =0;
+			let winnerBid =0;
             winnerList.forEach(function (winner) {
                 winnerTotalPoint += parseInt(winner.bid)
             });
@@ -26,7 +28,8 @@ function Result(bidDb, playersDb) {
             winnerList.forEach(function (winner) {
                 playersDb.find(winner.player, function(players) {
                     if (players && players.length > 0) {
-                        let winnerBid = parseInt(winner.bid);
+                        winnerBid = parseInt(winner.bid);
+						winnerBid = winnerBid * 1.5;
                         let winnings = ((winnerBid * loserTotalPoint) / winnerTotalPoint);
                         let point = parseFloat(players[0].point) + winnerBid + parseFloat(winnings);
                         playersDb.updatePoints(winner.player, point);
@@ -35,9 +38,17 @@ function Result(bidDb, playersDb) {
             })
 
             loserList.forEach(function (loser) {
+
                 playersDb.find(loser.player, function(players) {
-                    if (players && players.length > 0) {
-                        let point = parseFloat(players[0].point) - parseInt(loser.bid);
+
+					
+                    if (players && players.length > 0 ) {
+						loserBid = parseInt(loser.bid);
+						if (loserBid === 375 || loserBid === 500){
+						loserBid = loserBid * 2;
+						
+						}
+                        let point = parseFloat(players[0].point) - parseFloat(loserBid);
                         playersDb.updatePoints(loser.player, point);
                     }
                 });
@@ -56,7 +67,7 @@ function Result(bidDb, playersDb) {
                             let defaultBid = {
                                 "match_id": req.id,
                                 "team": loosingTeam,
-                                "bid": "25",
+                                "bid": "125",
                                 "player": eachPlayer.name
                             }
 
