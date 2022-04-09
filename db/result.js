@@ -16,6 +16,7 @@ function Result(bidDb, playersDb) {
 
             let winnerTotalPoint = 0;
             let loserTotalPoint = 0;
+			let loserBid =0;
             winnerList.forEach(function (winner) {
                 winnerTotalPoint += parseInt(winner.bid)
             });
@@ -35,9 +36,17 @@ function Result(bidDb, playersDb) {
             })
 
             loserList.forEach(function (loser) {
+
                 playersDb.find(loser.player, function(players) {
-                    if (players && players.length > 0) {
-                        let point = parseFloat(players[0].point) - parseInt(loser.bid);
+
+					
+                    if (players && players.length > 0 ) {
+						loserBid = parseInt(loser.bid);
+						if (loserBid === 94 || loserBid === 125){
+						loserBid = loserBid * 1.25;
+						
+						}
+                        let point = parseFloat(players[0].point) - parseFloat(loserBid);
                         playersDb.updatePoints(loser.player, point);
                     }
                 });
@@ -56,7 +65,7 @@ function Result(bidDb, playersDb) {
                             let defaultBid = {
                                 "match_id": req.id,
                                 "team": loosingTeam,
-                                "bid": "25",
+                                "bid": "75",
                                 "player": eachPlayer.name
                             }
 
