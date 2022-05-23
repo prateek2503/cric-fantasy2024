@@ -44,10 +44,10 @@
                         <div class="input-group">
                             <label class="input-group-text" for="bid-select-${match.id}">Boli</label>
                             <select class="form-select" id="bid-select-${match.id}">
-                                <option value="44" selected>44</option>
-                                <option value="88">88</option>
-                                <option value="131">131</option>
-                                <option value="175">175</option>
+                                <option value="125" selected>125</option>
+                                <option value="250">250</option>
+                                <option value="375">375</option>
+                                <option value="500">500</option>
                             </select>
                         </div>
                         <div class="float-end">
