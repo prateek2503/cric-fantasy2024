@@ -43,7 +43,7 @@ function Result(bidDb, playersDb) {
                     if (players && players.length > 0 ) {
 						loserBid = parseInt(loser.bid);
 						if (loserBid === 112 || loserBid === 150){
-						loserBid = loserBid * 1.5;
+						loserBid = loserBid * 1;
 						
 						}
                         let point = parseFloat(players[0].point) - parseFloat(loserBid);
