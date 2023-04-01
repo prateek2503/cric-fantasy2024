@@ -1,43 +1,74 @@
-{"id":1,"date":"Oct 17, 2022 09:30","venue":"Bellerive Oval, Hobart","home":"West Indies","away":"Scotland","result":"","_id":1}
-{"id":2,"date":"Oct 17, 2022 13:30","venue":"Bellerive Oval, Hobart","home":"Zimbabwe","away":"Ireland","result":"","_id":2}
-{"id":3,"date":"Oct 18, 2022 09:30","venue":"Kardinia Park Stadium, Geelong","home":"Namibia","away":"Netherlands","result":"","_id":3}
-{"id":4,"date":"Oct 18, 2022 13:30","venue":"Kardinia Park Stadium, Geelong","home":"Sri Lanka","away":"United Arab Emirates","result":"","_id":4}
-{"id":5,"date":"Oct 19, 2022 09:30","venue":"Bellerive Oval, Hobart","home":"Scotland","away":"Ireland","result":"","_id":5}
-{"id":6,"date":"Oct 19, 2022 13:30","venue":"Bellerive Oval, Hobart","home":"Zimbabwe","away":"West Indies","result":"","_id":6}
-{"id":7,"date":"Oct 20, 2022 09:30","venue":"Kardinia Park Stadium, Geelong","home":"Sri Lanka","away":"Netherlands","result":"","_id":7}
-{"id":8,"date":"Oct 20, 2022 13:30","venue":"Kardinia Park Stadium, Geelong","home":"Namibia","away":"United Arab Emirates","result":"","_id":8}
-{"id":9,"date":"Oct 21, 2022 09:30","venue":"Bellerive Oval, Hobart","home":"West Indies","away":"Ireland","result":"","_id":9}
-{"id":10,"date":"Oct 21, 2022 13:30","venue":"Bellerive Oval, Hobart","home":"Scotland","away":"West Indies","result":"","_id":10}
-{"id":11,"date":"Oct 22, 2022 12:30","venue":"Sydney Cricket Ground, Sydney","home":"Australia","away":"New Zealand","result":"","_id":11}
-{"id":12,"date":"Oct 22, 2022 16:30","venue":"Perth Stadium, Perth","home":"England","away":"Afghanistan","result":"","_id":12}
-{"id":13,"date":"Oct 23, 2022 09:30","venue":"Bellerive Oval, Hobart","home":"Group A Winner","away":"Group B Winner","result":"","_id":13}
-{"id":14,"date":"Oct 23, 2022 13:30","venue":"Melbourne Cricket Ground, Melbourne","home":"India","away":"Pakistan","result":"","_id":14}
-{"id":15,"date":"Oct 24, 2022 09:30","venue":"Bellerive Oval, Hobart","home":"Bangladesh","away":"Group A Runner up","result":"","_id":15}
-{"id":16,"date":"Oct 24, 2022 13:30","venue":"Bellerive Oval, Hobart","home":"South Africa","away":"Group B Runner up","result":"","_id":16}
-{"id":17,"date":"Oct 25, 2022 16:30","venue":"Perth Stadium, Perth","home":"Australia","away":"Group A Winner","result":"","_id":17}
-{"id":18,"date":"Oct 26, 2022 09:30","venue":"Melbourne Cricket Ground, Melbourne","home":"England","away":"Group B Runner UP","result":"","_id":18}
-{"id":19,"date":"Oct 26, 2022 13:30","venue":"Melbourne Cricket Ground, Melbourne","home":"Afghanistan","away":"New Zealand","result":"","_id":19}
-{"id":20,"date":"Oct 27, 2022 08:30","venue":"Sydney Cricket Ground, Sydney","home":"Bangladesh","away":"South Africa","result":"","_id":20}
-{"id":21,"date":"Oct 27, 2022 12:30","venue":"Sydney Cricket Ground, Sydney","home":"India","away":"Group A Runner up","result":"","_id":21}
-{"id":22,"date":"Oct 27, 2022 16:30","venue":"Perth Stadium, Perth","home":"Pakistan","away":"Group B Runner up","result":"","_id":22}
-{"id":23,"date":"Oct 28, 2022 09:30","venue":"Melbourne Cricket Ground, Melbourne","home":"Afghanistan","away":"Group B Runner up","result":"","_id":23}
-{"id":24,"date":"Oct 28, 2022 13:30","venue":"Melbourne Cricket Ground, Melbourne","home":"Australia","away":"England","result":"","_id":24}
-{"id":25,"date":"Oct 29, 2022 13:30","venue":"Sydney Cricket Ground, Sydney","home":"New Zealand","away":"Group A Winner","result":"","_id":25}
-{"id":26,"date":"Oct 30, 2022 08:30","venue":"The Gabba, Brisbane","home":"Bangladesh","away":"Group B Winner","result":"","_id":26}
-{"id":27,"date":"Oct 30, 2022 12:30","venue":"Perth Stadium, Perth","home":"Pakistan","away":"Group A Runner up","result":"","_id":27}
-{"id":28,"date":"Oct 30, 2022 16:30","venue":"Perth Stadium, Perth","home":"India","away":"South Africa","result":"","_id":28}
-{"id":29,"date":"Oct 31, 2022 13:30","venue":"The Gabba, Brisbane","home":"Australia","away":"Group B Runner up","result":"","_id":29}
-{"id":30,"date":"Nov 1, 2022 09:30","venue":"The Gabba, Brisbane","home":"Afghanistan","away":"Group A Winner","result":"","_id":30}
-{"id":31,"date":"Nov 1, 2022 13:30","venue":"The Gabba, Brisbane","home":"England","away":"New Zealand","result":"","_id":31}
-{"id":32,"date":"Nov 2, 2022 09:30","venue":"Adelaide Oval, Adelaide","home":"Group B Winner","away":"Group A Runner up","result":"","_id":32}
-{"id":33,"date":"Nov 2, 2022 13:30","venue":"Adelaide Oval, Adelaide","home":"India","away":"Bangladesh","result":"","_id":33}
-{"id":34,"date":"Nov 3, 2022 13:30","venue":"Sydney Cricket Ground, Sydney","home":"Pakistan","away":"South Africa","result":"","_id":34}
-{"id":35,"date":"Nov 4, 2022 09:30","venue":"Adelaide Oval, Adelaide","home":"New Zealand","away":"Group B Runner up","result":"","_id":35}
-{"id":36,"date":"Nov 4, 2022 13:30","venue":"Adelaide Oval, Adelaide","home":"Australia","home":"Afghanistan","result":"","_id":36}
-{"id":37,"date":"Nov 5, 2022 13:30","venue":"Sydney Cricket Ground, Sydney","home":"England","away":"Group A Runner up","result":"","_id":37}
-{"id":38,"date":"Nov 6, 2022 09:30","venue":"Adelaide Oval, Adelaide","home":"South Africa","away":"Group A Runner up","result":"","_id":38}
-{"id":39,"date":"Nov 6, 2022 13:30","venue":"Adelaide Oval, Adelaide","home":"Pakistan","away":"Bangladesh","result":"","_id":39}
-{"id":40,"date":"Nov 6, 2022 13:30","venue":"Melbourne Cricket Ground, Melbourne","home":"India","away":"Group B Winner","result":"","_id":40}
-{"id":41,"date":"Nov 9, 2022 13:30","venue":"Sydney Cricket Ground, Sydney","home":"TBD","away":"TBD","result":"","_id":41}
-{"id":42,"date":"Nov 10, 2022 13:30","venue":"Adelaide Oval, Adelaide","home":"TBD","away":"TBD","result":"","_id":42}
-{"id":43,"date":"Nov 13, 2022 13:30","venue":"Melbourne Cricket Ground, Melbourne","home":"TBD","away":"TBD","result":"","_id":43}
+{"id:1,"date":"March 31, 2023 19:30","venue":"Ahmedabad","home":"Gujarat Titans","away":"Chennai Super Kings","result":"","_id":1}
+{"id:2,"date":"April 1, 2023 15:30","venue":"Mohali","home":"Punjab Kings","away":"Kolkata Knight Riders","result":"","_id":2}
+{"id:3,"date":"April 1, 2023 19:30","venue":"Lucknow","home":"Lucknow Super Giants","away":"Delhi Capitals","result":"","_id":3}
+{"id:4,"date":"April 2, 2023 15:30","venue":"Hyderabad","home":"Sunrisers Hyderabad","away":"Rajasthan Royals","result":"","_id":4}
+{"id:5,"date":"April 2, 2023 19:30","venue":"Bengaluru","home":"Royal Challengers Bangalore","away":"Mumbai Indians","result":"","_id":5}
+{"id:6,"date":"April 3, 2023 19:30","venue":"Chennai","home":"Chennai Super Kings","away":"Lucknow Super Giants","result":"","_id":6}
+{"id:7,"date":"April 4, 2023 19:30","venue":"Delhi","home":"Delhi Capitals","away":"Gujarat Titans","result":"","_id":7}
+{"id:8,"date":"April 5, 2023 19:30","venue":"Guwahati","home":"Rajasthan Royals","away":"Punjab Kings","result":"","_id":8}
+{"id:9,"date":"April 6, 2023 19:30","venue":"Kolkata","home":"Kolkata Knight Riders","away":"Royal Challengers Bangalore","result":"","_id":9}
+{"id:10,"date":"April 7, 2023 19:30","venue":"Lucknow","home":"Lucknow Super Giants","away":"Sunrisers Hyderabad","result":"","_id":10}
+{"id:11,"date":"April 8, 2023 15:30","venue":"Guwahati","home":"Rajasthan Royals","away":"Delhi Capitals","result":"","_id":11}
+{"id:12,"date":"April 8, 2023 19:30","venue":"Mumbai","home":"Mumbai Indians","away":"Chennai Super Kings","result":"","_id":12}
+{"id:13,"date":"April 9, 2023 15:30","venue":"Ahmedabad","home":"Gujarat Titans","away":"Kolkata Knight Riders","result":"","_id":13}
+{"id:14,"date":"April 9, 2023 19:30","venue":"Hyderabad","home":"Sunrisers Hyderabad","away":"Punjab Kings","result":"","_id":14}
+{"id:15,"date":"April 10, 2023 19:30","venue":"Bengaluru","home":"Royal Challengers Bangalore","away":"Lucknow Super Giants","result":"","_id":15}
+{"id:16,"date":"April 11, 2023 19:30","venue":"Delhi","home":"Delhi Capitals","away":"Mumbai Indians","result":"","_id":16}
+{"id:17,"date":"April 12, 2023 19:30","venue":"Chennai","home":"Chennai Super Kings","away":"Rajasthan Royals","result":"","_id":17}
+{"id:18,"date":"April 13, 2023 19:30","venue":"Mohali","home":"Punjab Kings","away":"Gujarat Titans","result":"","_id":18}
+{"id:19,"date":"April 14, 2023 19:30","venue":"Kolkata","home":"Kolkata Knight Riders","away":"Sunrisers Hyderabad","result":"","_id":19}
+{"id:20,"date":"April 15, 2023 15:30","venue":"Bengaluru","home":"Royal Challengers Bangalore","away":"Delhi Capitals","result":"","_id":20}
+{"id:21,"date":"April 15, 2023 19:30","venue":"Lucknow","home":"Lucknow Super Giants","away":"Punjab Kings","result":"","_id":21}
+{"id:22,"date":"April 16, 2023 15:30","venue":"Mumbai","home":"Mumbai Indians","away":"Kolkata Knight Riders","result":"","_id":22}
+{"id:23,"date":"April 16, 2023 19:30","venue":"Ahmedabad","home":"Gujarat Titans","away":"Rajasthan Royals","result":"","_id":23}
+{"id:24,"date":"April 17, 2023 19:30","venue":"Bengaluru","home":"Royal Challengers Bangalore","away":"Chennai Super Kings","result":"","_id":24}
+{"id:25,"date":"April 18, 2023 19:30","venue":"Hyderabad","home":"Sunrisers Hyderabad","away":"Mumbai Indians","result":"","_id":25}
+{"id:26,"date":"April 19, 2023 19:30","venue":"Jaipur","home":"Rajasthan Royals","away":"Lucknow Super Giants","result":"","_id":26}
+{"id:27,"date":"April 20, 2023 15:30","venue":"Mohali","home":"Punjab Kings","away":"Royal Challengers Bangalore","result":"","_id":27}
+{"id:28,"date":"April 20, 2023 19:30","venue":"Delhi","home":"Delhi Capitals","away":"Kolkata Knight Riders","result":"","_id":28}
+{"id:29,"date":"April 21, 2023 19:30","venue":"Chennai","home":"Chennai Super Kings","away":"Sunrisers Hyderabad","result":"","_id":29}
+{"id:30,"date":"April 22, 2023 15:30","venue":"Lucknow","home":"Lucknow Super Giants","away":"Gujarat Titans","result":"","_id":30}
+{"id:31,"date":"April 22, 2023 19:30","venue":"Mumbai","home":"Mumbai Indians","away":"Punjab Kings","result":"","_id":31}
+{"id:32,"date":"April 23, 2023 15:30","venue":"Bengaluru","home":"Royal Challengers Bangalore","away":"Rajasthan Royals","result":"","_id":32}
+{"id:33,"date":"April 23, 2023 19:30","venue":"Kolkata","home":"Kolkata Knight Riders","away":"Chennai Super Kings","result":"","_id":33}
+{"id:34,"date":"April 24, 2023 19:30","venue":"Hyderabad","home":"Sunrisers Hyderabad","away":"Delhi Capitals","result":"","_id":34}
+{"id:35,"date":"April 25, 2023 19:30","venue":"Ahmedabad","home":"Gujarat Titans","away":"Mumbai Indians","result":"","_id":35}
+{"id:36,"date":"April 26, 2023 19:30","venue":"Bengaluru","home":"Royal Challengers Bangalore","away":"Kolkata Knight Riders","result":"","_id":36}
+{"id:37,"date":"April 27, 2023 19:30","venue":"Jaipur","home":"Rajasthan Royals","away":"Chennai Super Kings","result":"","_id":37}
+{"id:38,"date":"April 28, 2023 19:30","venue":"Mohali","home":"Punjab Kings","away":"Lucknow Super Giants","result":"","_id":38}
+{"id:39,"date":"April 29, 2023 15:30","venue":"Kolkata","home":"Kolkata Knight Riders","away":"Gujarat Titans","result":"","_id":39}
+{"id:40,"date":"April 29, 2023 19:30","venue":"Delhi","home":"Delhi Capitals","away":"Sunrisers Hyderabad","result":"","_id":40}
+{"id:41,"date":"April 30, 2023 15:30","venue":"Chennai","home":"Chennai Super Kings","away":"Punjab Kings","result":"","_id":41}
+{"id:42,"date":"April 30, 2023 19:30","venue":"Mumbai","home":"Mumbai Indians","away":"Rajasthan Royals","result":"","_id":42}
+{"id:43,"date":"May 1, 2023 19:30","venue":"Lucknow","home":"Lucknow Super Giants","away":"Royal Challengers Bangalore","result":"","_id":43}
+{"id:44,"date":"May 2, 2023 19:30","venue":"Ahmedabad","home":"Gujarat Titans","away":"Delhi Capitals","result":"","_id":44}
+{"id:45,"date":"May 3, 2023 19:30","venue":"Mohali","home":"Punjab Kings","away":"Mumbai Indians","result":"","_id":45}
+{"id:46,"date":"May 4, 2023 15:30","venue":"Lucknow","home":"Lucknow Super Giants","away":"Chennai Super Kings","result":"","_id":46}
+{"id:47,"date":"May 4, 2023 19:30","venue":"Hyderabad","home":"Sunrisers Hyderabad","away":"Kolkata Knight Riders","result":"","_id":47}
+{"id:48,"date":"May 5, 2023 19:30","venue":"Jaipur","home":"Rajasthan Royals","away":"Gujarat Titans","result":"","_id":48}
+{"id:49,"date":"May 6, 2023 15:30","venue":"Chennai","home":"Chennai Super Kings","away":"Mumbai Indians","result":"","_id":49}
+{"id:50,"date":"May 6, 2023 19:30","venue":"Delhi","home":"Delhi Capitals","away":"Royal Challengers Bangalore","result":"","_id":50}
+{"id:51,"date":"May 7, 2023 15:30","venue":"Ahmedabad","home":"Gujarat Titans","away":"Lucknow Super Giants","result":"","_id":51}
+{"id:52,"date":"May 7, 2023 19:30","venue":"Jaipur","home":"Rajasthan Royals","away":"Sunrisers Hyderabad","result":"","_id":52}
+{"id:53,"date":"May 8, 2023 19:30","venue":"Kolkata","home":"Kolkata Knight Riders","away":"Punjab Kings","result":"","_id":53}
+{"id:54,"date":"May 9, 2023 19:30","venue":"Mumbai","home":"Mumbai Indians","away":"Royal Challengers Bangalore","result":"","_id":54}
+{"id:55,"date":"May 10, 2023 19:30","venue":"Chennai","home":"Chennai Super Kings","away":"Delhi Capitals","result":"","_id":55}
+{"id:56,"date":"May 11, 2023 19:30","venue":"Kolkata","home":"Kolkata Knight Riders","away":"Rajasthan Royals","result":"","_id":56}
+{"id:57,"date":"May 12, 2023 19:30","venue":"Mumbai","home":"Mumbai Indians","away":"Gujarat Titans","result":"","_id":57}
+{"id:58,"date":"May 13, 2023 15:30","venue":"Hyderabad","home":"Sunrisers Hyderabad","away":"Lucknow Super Giants","result":"","_id":58}
+{"id:59,"date":"May 13, 2023 19:30","venue":"Delhi","home":"Delhi Capitals","away":"Punjab Kings","result":"","_id":59}
+{"id:60,"date":"May 14, 2023 15:30","venue":"Jaipur","home":"Rajasthan Royals","away":"Royal Challengers Bangalore","result":"","_id":60}
+{"id:61,"date":"May 14, 2023 19:30","venue":"Chennai","home":"Chennai Super Kings","away":"Kolkata Knight Riders","result":"","_id":61}
+{"id:62,"date":"May 15, 2023 19:30","venue":"Ahmedabad","home":"Gujarat Titans","away":"Sunrisers Hyderabad","result":"","_id":62}
+{"id:63,"date":"May 16, 2023 19:30","venue":"Lucknow","home":"Lucknow Super Giants","away":"Mumbai Indians","result":"","_id":63}
+{"id:64,"date":"May 17, 2023 19:30","venue":"Dharamshala","home":"Punjab Kings","away":"Delhi Capitals","result":"","_id":64}
+{"id:65,"date":"May 18, 2023 19:30","venue":"Hyderabad","home":"Sunrisers Hyderabad","away":"Royal Challengers Bangalore","result":"","_id":65}
+{"id:66,"date":"May 19, 2023 19:30","venue":"Dharamshala","home":"Punjab Kings","away":"Rajasthan Royals","result":"","_id":66}
+{"id:67,"date":"May 20, 2023 15:30","venue":"Delhi","home":"Delhi Capitals","away":"Chennai Super Kings","result":"","_id":67}
+{"id:68,"date":"May 20, 2023 19:30","venue":"Kolkata","home":"Kolkata Knight Riders","away":"Lucknow Super Giants","result":"","_id":68}
+{"id:69,"date":"May 21, 2023 15:30","venue":"Mumbai","home":"Mumbai Indians","away":"Sunrisers Hyderabad","result":"","_id":69}
+{"id:70,"date":"May 21, 2023 19:30","venue":"Bengaluru","home":"Royal Challengers Bangalore","away":"Gujarat Titans","result":"","_id":70}
+{"id:71,"date":"TBD","venue":"","home":"TBD","away":"TBD","result":"","_id":71}
+{"id:72,"date":"TBD","venue":"","home":"TBD","away":"TBD","result":"","_id":72}
+{"id:73,"date":"TBD","venue":"","home":"TBD","away":"TBD","result":"","_id":73}
+{"id:74,"date":"TBD","venue":"","home":"TBD","away":"TBD","result":"","_id":74}
