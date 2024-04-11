@@ -67,7 +67,7 @@ function Result(bidDb, playersDb) {
                             let defaultBid = {
                                 "match_id": req.id,
                                 "team": loosingTeam,
-                                "bid": "200",
+                                "bid": "100",
                                 "player": eachPlayer.name
                             }
 
