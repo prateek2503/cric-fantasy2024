@@ -29,7 +29,7 @@ function Result(bidDb, playersDb) {
                 playersDb.find(winner.player, function(players) {
                     if (players && players.length > 0) {
                         winnerBid = parseInt(winner.bid);
-						winnerBid = winnerBid * 1;
+						winnerBid = winnerBid * 1.5;
                         let winnings = ((winnerBid * loserTotalPoint) / winnerTotalPoint);
                         let point = parseFloat(players[0].point) + winnerBid + parseFloat(winnings);
                         playersDb.updatePoints(winner.player, point);
@@ -44,14 +44,14 @@ function Result(bidDb, playersDb) {
 					
                     if (players && players.length > 0 ) {
 						loserBid = parseInt(loser.bid);
+						if (loserBid === 450 || loserbid === 600){
+						loserBid = loserBid * 2;
+						}
 						if (loserBid === 300){
 						loserBid = loserBid * 1.5;
 						}
-						if (loserBid === 225){
-						loserBid = loserBid * 1.25;
-						}
 						if (loserBid === 150){
-						loserBid = loserBid * 1.1;
+						loserBid = loserBid * 1.25;
 						}
                         let point = parseFloat(players[0].point) - parseFloat(loserBid);
                         playersDb.updatePoints(loser.player, point);
@@ -72,7 +72,7 @@ function Result(bidDb, playersDb) {
                             let defaultBid = {
                                 "match_id": req.id,
                                 "team": loosingTeam,
-                                "bid": "90",
+                                "bid": "400",
                                 "player": eachPlayer.name
                             }
 
