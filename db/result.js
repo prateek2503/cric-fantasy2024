@@ -47,12 +47,6 @@ function Result(bidDb, playersDb) {
 						if (loserBid === 450 || loserbid === 600){
 						loserBid = loserBid * 2;
 						}
-						if (loserBid === 300){
-						loserBid = loserBid * 1.5;
-						}
-						if (loserBid === 150){
-						loserBid = loserBid * 1.25;
-						}
                         let point = parseFloat(players[0].point) - parseFloat(loserBid);
                         playersDb.updatePoints(loser.player, point);
                     }
